@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <div class="header-container">
+        <h1>TIC TAC TOE</h1>
+        <div class="counter">
+            <div id="player1Wins">Player 1 Total Wins: 0</div>
+            <div id="player2Wins">Player 2 Total Wins: 0</div>
+        </div>
+    </div>
+    <div class="board" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+    <div class="winning-message" id="winningMessage">
+        <div data-winning-message-text></div> 
+        <button id="restartButton">Restart Game</button>
+    </div>
+    <script src="index.js" defer></script>
+</body>
+</html>
